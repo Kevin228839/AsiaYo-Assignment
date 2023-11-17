@@ -13,3 +13,7 @@ app.use((err, _req, res, _next) => {
 app.listen(port, () => {
   console.log(`App is listening at port ${port}`);
 });
+
+module.exports = {
+  app
+}
